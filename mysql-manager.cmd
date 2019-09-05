@@ -9,7 +9,7 @@ set temp=temp.txt
 mysql -h%host% -P%port% -u%user% -p%password% -e"show databases" > %temp%
 set /a n=0
 for /f "tokens=*" %%i in (%temp%) do (
-	if !n! gtr 4 (
+	if !n! gtr 0 (
 		set ddl=drop database %%i;
 		set batch=!batch!!ddl!
 	) 
