@@ -1,5 +1,5 @@
 # mysql-manager
-## mysql运维管理脚本
+## mysql运维管理工具
 #### 1. 修改数据库连接信息
 ```
 host="your host"
