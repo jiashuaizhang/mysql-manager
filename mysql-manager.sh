@@ -12,4 +12,4 @@ do
    batch=$batch$ddl
 done
 mysql -h$host -P$port -u$user -p$password -e"$batch"
-echo "all done,congratulations!"
+echo all done,congratulations!
