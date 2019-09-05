@@ -17,5 +17,5 @@ for /f "tokens=*" %%i in (%temp%) do (
 )
 mysql -h%host% -P%port% -u%user% -p%password% -e"!batch!"
 del %temp%
-echo "all done,congratulations!"
+echo all done,congratulations!
 pause
